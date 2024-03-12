@@ -1,0 +1,3 @@
+README
+
+This C++ code aims to solve a dynamic programming problem where the goal is to find the number of ways to represent a given integer t as a sum of integers chosen from a predefined set of numbers [1, 2, 3, 4, 5, 6, 7]. The algorithm employs memoization using an array dp to store the number of ways to represent each integer, starting from 0 up to t. The function f recursively calculates the number of ways by considering all possible choices from the set of numbers. If a value has already been computed, it retrieves it from the dp array. Finally, the code outputs the number of ways to represent t modulo 10^9 + 7. This approach efficiently handles large values of t by avoiding redundant calculations through memoization.
