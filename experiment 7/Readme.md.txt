@@ -1,0 +1,3 @@
+If the elements of the nums array are only 0, then there is no possible difference in any answer.Else we need to sort the nums array in such a manner that the most significant number will be first and the less significant number will be at last
+
+For that sorting we will use the following method. With two string a and b there is two possible permutations that is ab or ba and we just need to check, which one of the two is bigger.
