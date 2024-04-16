@@ -1,0 +1,1 @@
+This code iterates over all pairs of rows (i, j) and counts the number of columns where both rows have black squares. It does so by iterating through each column and checking if both rows have a black square in that column. The time complexity of this algorithm is O(n^3), where n is the number of rows/columns in the matrix.
